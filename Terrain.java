@@ -1,11 +1,12 @@
 public class Terrain extends Carte {
-    private char couleur; 
+    private char couleur;
 
     public Terrain(char couleur) {
         super(0); 
         this.couleur = couleur;
         System.out.println("Un nouveau terrain.");
     }
+
     @Override
     public String toString() {
         String nomCouleur = "";
@@ -15,7 +16,6 @@ public class Terrain extends Carte {
             case 'n': nomCouleur = "Noir"; break;
             case 'r': nomCouleur = "Rouge"; break;
             case 'v': nomCouleur = "Vert"; break;
-            default: nomCouleur = "Inconnue";
         }
         return "Un terrain " + nomCouleur;
     }

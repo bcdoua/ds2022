@@ -1,14 +1,14 @@
 public class Carte {
-    protected int cout; 
+    protected int cout;
 
     public Carte(int cout) {
         this.cout = cout;
-        System.out.println("Une nouvelle carte");
     }
 
     public int getCout() {
         return cout;
     }
+
     public String toString() {
         return "Carte avec coût : " + cout;
     }

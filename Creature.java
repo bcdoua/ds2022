@@ -8,7 +8,7 @@ public class Creature extends Carte {
         this.nom = nom;
         this.degats = degats;
         this.vie = vie;
-        System.out.println("Une nouvelle créature");
+        System.out.println("Une nouvelle créature.");
     }
 
     @Override

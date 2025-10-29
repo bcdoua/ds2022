@@ -6,7 +6,7 @@ public class Sortilege extends Carte {
         super(cout);
         this.nom = nom;
         this.explication = explication;
-        System.out.println("Un sortilège de plus");
+        System.out.println("Un sortilège de plus.");
     }
 
     @Override

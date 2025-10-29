@@ -14,7 +14,6 @@ public class Magic {
         System.out.println("Là, j'ai en stock :");
         maMain.afficher();
 
-        maMain.jouer();
-        maMain.jouer();
+        maMain.jouer(); 
     }
 }
